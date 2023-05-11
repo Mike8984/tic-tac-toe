@@ -19,7 +19,6 @@ function createCells() {
 createCells()
 
 function addGo(e) {
-  console.log(e.target)
   const goDisplay = document.createElement('div')
   goDisplay.classList.add(go)
   e.target.append(goDisplay)
